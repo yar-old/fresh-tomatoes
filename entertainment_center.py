@@ -1,8 +1,14 @@
+# Include media.py to use "Movie" class
 import media
-from fresh_tomatoes import open_movies_page #
 
+# Include open_movies_page() from fresh_tomatoes.py
+from fresh_tomatoes import open_movies_page
+
+# Add movies here
 spirited_away = media.Movie(
-    "Spirited Away", "http://www.nausicaa.net/miyazaki/sen/poster_images/USA_full.jpg", "https://www.youtube.com/watch?v=ByXuk9QqQkk"
+    "Spirited Away", # Title
+    "http://www.nausicaa.net/miyazaki/sen/poster_images/USA_full.jpg", # Image
+    "https://www.youtube.com/watch?v=ByXuk9QqQkk" # Trailer
 )
 
 mad_max = media.Movie(
@@ -17,5 +23,7 @@ zootopia = media.Movie(
     "https://www.youtube.com/watch?v=bY73vFGhSVk"
 )
 
-movies = [ spirited_away, mad_max, zootopia ]
-open_movies_page(movies)
+#############################################
+
+movies = [ spirited_away, mad_max, zootopia ] # Add list of movies to array
+open_movies_page(movies) # Open the application web page
