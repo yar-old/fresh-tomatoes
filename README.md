@@ -9,7 +9,7 @@ To get started quickly, first [download the source files](https://github.com/yra
 * Unzip the source files archive to your desired directory.
 * Add your desired movie to the file `entertainment_center.py`
   * Use the `media.Movie()` syntax to create new instances for the "Movie" class.
-  * For example: `my_movie = media.Movie("My Movie", [insert movie poster url], [insert movie trailer url])`
+  * For example: `my_movie = media.Movie("My Movie", [insert movie poster url], [insert movie trailer url], [insert release date], [insert director], [insert screenwriter])`
 * Open Terminal and `cd` to the Fresh Tomatoes directory.
 * Call `python entertainment_center.py`
 * `fresh_tomatoes.html` will render in the `/build` directory and `open_movies_page()` will automatically open your webpage.
