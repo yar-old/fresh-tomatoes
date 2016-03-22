@@ -1,6 +1,6 @@
 # Fresh Tomatoes
 
-Fresh Tomatoes is a movie trailer app made with Python. Based on the first project from the Full Stack Web Developer Nano-Degree course taught by Udacity. This is intended to be server-side code which will parse through a list of movies and serve the title, poster image, and trailer to the front-end.
+"Fresh Tomatoes" is a movie trailer app made with Python. Based on the first project from the Full Stack Web Developer Nano-Degree course taught by Udacity. This is intended to be server-side code which will parse through a list of movies and serve the title, poster image, and trailer to the front-end.
 
 ## Quick Start
 
@@ -15,4 +15,10 @@ To get started quickly, first [download the source files](https://github.com/yra
 
 ## Structure
 
-This
+The project structure has three main files and one `/build` directory:
+* `fresh_tomatoes.py` (Main Functions)
+* `media.py` (Movie Class)
+* `entertainment_center.py` (Driver)
+* `/build`
+
+The output files from this application render to the `/build` directory.
