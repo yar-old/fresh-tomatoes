@@ -12,7 +12,7 @@ To get started quickly, first [download the source files](https://github.com/yra
   * For example: `my_movie = media.Movie("My Movie", [insert movie poster url], [insert movie trailer url])`
 * Open Terminal and `cd` to the Fresh Tomatoes directory.
 * Call `python entertainment_center.py`
-* `fresh_tomatoes.html` will render in the `/build` directory and `fresh_tomatoes.py` will automatically open your webpage.
+* `fresh_tomatoes.html` will render in the `/build` directory and `open_movies_page()` will automatically open your webpage.
 
 ## Structure
 
